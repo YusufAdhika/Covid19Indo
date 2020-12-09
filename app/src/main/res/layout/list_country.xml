@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/globe_linear_layout"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Provinsi"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ProvinsiName"
+            android:textColor="@color/Black"
+            android:textSize="12sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:text="Total Covid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_totalCovid"
+            android:textColor="@color/Black"
+            android:textSize="12sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:text="Sembuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_provinsiSembuh"
+            android:textColor="@color/Black"
+            android:textSize="12sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:text="Total Kematian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_totalKematian"
+            android:textColor="@color/Black"
+            android:textSize="12sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
